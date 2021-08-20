@@ -2,7 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import firebase from "firebase/app";
+
+var firebaseConfig = {
+  apiKey: "AIzaSyBFb0TBBMp--BzvxgiH2guWN7wR3QnHyU8",
+  authDomain: "hostel-booking-app-90f51.firebaseapp.com",
+  projectId: "hostel-booking-app-90f51",
+  storageBucket: "hostel-booking-app-90f51.appspot.com",
+  messagingSenderId: "271936881449",
+  appId: "1:271936881449:web:4e8f9ad57dbccad35ded38",
+  measurementId: "G-58212ZJW90"
+};
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +21,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
