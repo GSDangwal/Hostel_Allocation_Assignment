@@ -7,7 +7,7 @@ const config = {
   apiKey: 'AIzaSyAeue-AsYu76MMQlTOM-KlbYBlusW9c1FM',
   authDomain: 'myproject-1234.firebaseapp.com',
 };
-firebase.initializeApp(config);
+firebase.initializeApp(config);// firebase
 const uiConfig = {
   signInFlow: 'popup',
   signInOptions: [
